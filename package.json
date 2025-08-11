@@ -1,10 +1,20 @@
 {
-  "name": "mcp-wordpress-proxy",
+  "name": "wordpress-mcp-railway",
   "version": "1.0.0",
+  "description": "WordPress MCP Server for Railway",
+  "main": "index.js",
   "scripts": {
-    "start": "npx @automattic/mcp-wordpress-remote@latest"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
-    "@automattic/mcp-wordpress-remote": "latest"
+    "@automattic/mcp-wordpress-remote": "latest",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
   }
 }
