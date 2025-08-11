@@ -1,0 +1,10 @@
+{
+  "name": "mcp-wordpress-proxy",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx @automattic/mcp-wordpress-remote@latest"
+  },
+  "dependencies": {
+    "@automattic/mcp-wordpress-remote": "latest"
+  }
+}
