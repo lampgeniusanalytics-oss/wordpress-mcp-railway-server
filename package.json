@@ -1,10 +1,10 @@
 {
   "name": "wordpress-mcp-railway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WordPress MCP Server for Railway",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "echo 'Starting server...' && ls -la /app && echo 'Looking for index.js:' && ls -la /app/index.js && node index.js",
     "dev": "node index.js"
   },
   "dependencies": {
